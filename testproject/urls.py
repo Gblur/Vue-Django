@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from tasksapp import views, templates 
+from tasksapp import views 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
